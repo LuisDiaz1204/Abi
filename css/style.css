@@ -10,7 +10,7 @@ body {
     background-color: #4d5193;
     margin: 0;
     
-    background-image: url("../img/Abi.jpeg"); 
+    background-image: url("./img/Abi.jpeg"); 
 
     background-repeat: no-repeat;
     background-size: cover;
