@@ -2,21 +2,20 @@
    1. ESTILOS BASE Y CONTENEDOR
    ========================================================================== */
 body {
-    display: flex;
+     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-color: #4d5193;
     margin: 0;
-    
-    background-image: url("../img/Abi.jpeg"); 
 
+    background-color: #4d5193;
+    background-image:
+        linear-gradient(rgba(77, 81, 147, 0.5), rgba(77, 81, 147, 0.5)),
+        url("../img/Abi.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-   background-blend-mode: overlay;
 }
 
 h1 {
